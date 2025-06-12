@@ -1,0 +1,15 @@
+name: EnchantUpgrader
+main: com.example.enchantupgrader.EnchantUpgrader
+version: 1.0.1
+api-version: "1.20"
+description: Позволяет улучшать зачарования выше ванильных пределов
+author: Vilariqu
+commands:
+  enupgrade-reload:
+    description: Перезагружает конфигурацию плагина
+    usage: /enupgrade-reload
+    permission: enupgrade.reload
+permissions:
+  enupgrade.reload:
+    description: Разрешает перезагрузку конфигурации
+    default: op
